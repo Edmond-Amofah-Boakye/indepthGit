@@ -13,7 +13,7 @@ io.on("connection", (socket) => {
     console.log(socket.id);
 
     socket.on("message", (data)=>{
-        console.log(`this is totally from ${data}`);
+        console.log(`this is totally from -- test --ASDTEF100G ${data}`);
     })
 })
 
